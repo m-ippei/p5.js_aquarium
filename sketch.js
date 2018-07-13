@@ -1,7 +1,3 @@
-function dt(a) {
-    for (var b = 0; b < a.length; b++) text(a[b], 100, 10 * (b + 1))
-}
-
 function setup() {
     createCanvas(windowWidth, windowHeight - 15), W = windowWidth, H = windowHeight - 15, setInterval(function() {
         t++
