@@ -1,4 +1,5 @@
 function setup() {
+    //windowの作成
     createCanvas(windowWidth, windowHeight - 15), W = windowWidth, H = windowHeight - 15, setInterval(function() {
         t++
     }, 1e3), colorMode(HSL), fn = 7;
@@ -14,10 +15,12 @@ function setup() {
 
 function draw() {
     background(255);
+    //配列の更新
     for (var a in fishes) fishes[a] = ms(fishes[a])
 }
 
 function ms(a) {
+    //差分の更新
     var b = a.position,
         c = map(b.x[0], 0, b.Max, 0, 360),
         d = a.value,
