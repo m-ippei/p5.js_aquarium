@@ -1,3 +1,3 @@
 # p5.js_aquarium
 
-[demo](http://iworkstation.html.xdomain.jp/aquarium/)
+[demo](https://m-ippei.github.io/p5.js_aquarium/)
